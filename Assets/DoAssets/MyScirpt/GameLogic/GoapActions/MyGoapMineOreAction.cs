@@ -13,10 +13,10 @@ public class MyGoapMineOreAction : MyGoapAction
 
     public MyGoapMineOreAction()
     {
-        //条件：有新工具,没有矿石
+         //条件：有新工具,没有矿石
         addPrecondition("hasTool", true); // we need a tool to do this
         addPrecondition("hasOre", false); // if we have ore we don't want more
-                                          //效果：有铁矿石
+         //效果：有铁矿石
         addEffect("hasOre", true);
     }
 
@@ -82,7 +82,6 @@ public class MyGoapMineOreAction : MyGoapAction
                     if (tool) {
                         tool.use(0.5f);
                         if (tool.destroyed()) {
-                            Console.WriteLine("--------------------{0}", backpack.tool);
                             Destroy(backpack.tool);
                             backpack.tool = null;
                         }

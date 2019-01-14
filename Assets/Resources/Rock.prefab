@@ -26,7 +26,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 478426}
-  - component: {fileID: 11478426}
+  - component: {fileID: 114160506232390558}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Untagged
@@ -117,17 +117,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &11478426
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 178426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89d77b043bbb24468af890e347f5d507, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -139,3 +128,14 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 178426}
   m_IsPrefabAsset: 1
+--- !u!114 &114160506232390558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 178426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 705d65d31fffff6428ce36f945035848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

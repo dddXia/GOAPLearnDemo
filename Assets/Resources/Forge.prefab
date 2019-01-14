@@ -26,7 +26,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 484932}
-  - component: {fileID: 11484932}
   m_Layer: 0
   m_Name: Forge
   m_TagString: Untagged
@@ -117,17 +116,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &11484932
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 184932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfe3a1950d7eb45749e1721bd7a6f8d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

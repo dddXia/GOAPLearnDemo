@@ -71,8 +71,11 @@
     <Compile Include="Assets\DoAssets\MyScirpt\GameLogic\GoapActions\MyGoapDropOffOreAction.cs" />
     <Compile Include="Assets\DoAssets\MyScirpt\GameLogic\GoapActions\MyGoapMineOreAction.cs" />
     <Compile Include="Assets\DoAssets\MyScirpt\GameLogic\GoapActions\MyGoapPickUpTool.cs" />
+    <Compile Include="Assets\DoAssets\MyScirpt\GameLogic\GoapActions\WoodCutterAction\DropOffFirewoodAction.cs" />
+    <Compile Include="Assets\DoAssets\MyScirpt\GameLogic\GoapActions\WoodCutterAction\MyGoapChopFireWoodAction.cs" />
     <Compile Include="Assets\DoAssets\MyScirpt\GameLogic\GoapLaborers\Labourer.cs" />
     <Compile Include="Assets\DoAssets\MyScirpt\GameLogic\GoapLaborers\Miner.cs" />
+    <Compile Include="Assets\DoAssets\MyScirpt\GameLogic\GoapLaborers\WoodCutter.cs" />
     <Compile Include="Assets\DoAssets\MyScirpt\GameLogic\MyBackpackComponent.cs" />
     <Compile Include="Assets\DoAssets\MyScirpt\GameLogic\MyChoppingBlockComponent.cs" />
     <Compile Include="Assets\DoAssets\MyScirpt\GameLogic\MyIronRockComponent.cs" />

@@ -26,7 +26,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 468630}
-  - component: {fileID: 11468630}
+  - component: {fileID: 114980591007658652}
   m_Layer: 0
   m_Name: ChoppingBlock
   m_TagString: Untagged
@@ -117,17 +117,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &11468630
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 168630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 302a18d5653f841fdb98f48124f47ff5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -139,3 +128,14 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 168630}
   m_IsPrefabAsset: 1
+--- !u!114 &114980591007658652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64df29ba3c41e754e8e9b3afe63112da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

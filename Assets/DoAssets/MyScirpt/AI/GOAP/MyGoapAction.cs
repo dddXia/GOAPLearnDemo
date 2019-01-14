@@ -62,8 +62,8 @@ public abstract class MyGoapAction : MonoBehaviour {
         return inRange;
     }
 
-        //添加前置条件
-        public void addPrecondition(string key, object value)
+    //添加前置条件
+   public void addPrecondition(string key, object value)
     {
         preconditions.Add(new KeyValuePair<string, object>(key, value));
     }

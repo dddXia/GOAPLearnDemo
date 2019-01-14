@@ -17,7 +17,7 @@ public class MyGoapChopFirewoodAction : MyGoapAction
         // 如果我们有柴，我们不想要更多
         addPrecondition("hasTool", true); // we need a tool to do this
         addPrecondition("hasFirewood", false); // if we have firewood we don't want more
-                                               //效果：有柴
+        //效果：有柴
         addEffect("hasFirewood", true);
     }
 
